@@ -1,102 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/WebSite">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YourName - Professional Web Developer</title>
+    <title>Professional Web Development Agency in Dhanbad |SEO & Website Design Services | MRA Coders</title>
+    <meta name="description" content="MRA Coders - Premier web development company in Dhanbad offering custom website design, e-commerce solutions & SEO services. Get free consultation today!">
+    <meta name="keywords" content="web development Dhanbad, website design India, e-commerce solutions, SEO services">
+    <meta name="author" content="Rehan Ali Akbar">
+    <link rel="canonical" href="https://rehanaliakbar.github.io/Mra-coders/">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "MRA Coders",
+        "url": "https://rehanaliakbar.github.io/Mra-coders/",
+        "logo": "https://rehanaliakbar.github.io/Mra-coders/logo.png",
+        "image": "https://rehanaliakbar.github.io/Mra-coders/og-image.jpg",
+        "priceRange": "₹₹₹",
+        "telephone": "+91-8709920086",
+        "email": "rehan63628@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Main Road",
+            "addressLocality": "Dhanbad",
+            "addressRegion": "Jharkhand",
+            "postalCode": "826001",
+            "addressCountry": "India"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "23.7957",
+            "longitude": "86.4304"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/rehan-ali-7280a4353",
+            "https://x.com/Rehan63628",
+            "https://www.instagram.com/rehan_ali_akbar"
+        ]
+    }
+    </script>
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="  Professional Web Development Agency | MRA Coders ">
+    <meta property="og:description" content="Leading web development company in Dhanbad offering custom website solutions">
+    <meta property="og:image" content="https://rehanaliakbar.github.io/Mra-coders/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header itemscope itemtype="http://schema.org/Organization">
         <div class="container">
-            <nav>
-                <div class="logo">MRA CODER</div>
-                <div class="menu-toggle" id="mobile-menu">
+            <nav aria-label="Main navigation">
+                <div class="logo-container">
+                    <a href="/" itemprop="url" class="logo">
+                        <span class="logo-brackets">{</span><span itemprop="name">MRA</span><span class="logo-coders">CODERS</span><span class="logo-brackets">}</span>
+                    </a>
+                </div>
+                <div class="menu-toggle" id="mobile-menu" aria-label="Mobile menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
                 <ul class="nav-links" id="nav-links">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#home" aria-current="page">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-
-<!-- AdSense example -->
-
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home" itemscope itemtype="http://schema.org/Person">
         <div class="container">
-            <h1>Need a Professional Website?</h1>
-            <p>Let's build your online presence together. I create custom websites that help businesses grow and reach more customers.</p>
-            <a href="#contact" class="btn">Get Your Free Consultation</a>
+            <h1 itemprop="headline">Professional Website Design Services in Dhanbad</h1>
+            <p class="intro">Hi, I'm <span itemprop="name">Rehan Ali Akbar</span> - Founder of <strong itemprop="affiliation">MRA Coders</strong></p>
+            <p itemprop="description">Serving businesses in Dhanbad & Jharkhand with custom web solutions since 2023</p>
+            <a href="#contact" class="btn" aria-label="Get free consultation">Get Free Consultation</a>
         </div>
     </section>
-    
-    
-      <div class="section-title" id="idea">
-                  
-                  <h2>Why do you need a Web site for your business ? </h1>
-                  <p>A website is essential for any modern business. It provides a 24/7 online presence, helping customers 
-        find and connect with your brand anytime, anywhere. A professional website builds trust, showcases your 
-        products or services, and serves as a powerful marketing tool. It helps you reach a wider audience, 
-        stay competitive, and collect valuable insights about your visitors. With the growing importance of digital 
-        engagement, having a website is not just an option—it's a necessity for business growth and credibility.
-</p>
-                  
-              </div>
-
-<hr />
-
 
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
             <div class="section-title">
-                <h2>My Services</h2>
-                <p>What I can do for your business</p>
+                <h2>Our Web Development Services</h2>
+                <p>Full-stack digital solutions for Indian businesses</p>
             </div>
-            
-            
-            
             <div class="services-grid">
-                <div class="service-card">
-                    <h3>Website Design</h3>
-                    <p>Custom, responsive designs that look great on all devices and help convert visitors into customers.</p>
+                <div class="service-card" itemscope itemtype="http://schema.org/Service">
+                    <h3 itemprop="name">Website Development</h3>
+                    <p itemprop="description">Custom websites optimized for Indian markets</p>
+                    <meta itemprop="serviceType" content="WebDesign">
                 </div>
-                <div class="service-card">
-                    <h3>E-Commerce Solutions</h3>
-                    <p>Online stores with secure payment processing, product management, and inventory tracking.</p>
+                <div class="service-card" itemscope itemtype="http://schema.org/Service">
+                    <h3 itemprop="name">E-Commerce Solutions</h3>
+                    <p itemprop="description">Secure online stores with Indian payment gateways</p>
+                    <meta itemprop="serviceType" content="E-Commerce">
                 </div>
-                <div class="service-card">
-                    <h3>SEO Optimization</h3>
-                    <p>Built-in search engine optimization to help your website rank higher in search results.</p>
+                <div class="service-card" itemscope itemtype="http://schema.org/Service">
+                    <h3 itemprop="name">SEO Services</h3>
+                    <p itemprop="description">Local SEO for Indian businesses</p>
+                    <meta itemprop="serviceType" content="SEO">
                 </div>
             </div>
         </div>
-        
-  
-
     </section>
-    
- 
 
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <div class="about-content">
+            <div class="about-content" itemscope itemtype="http://schema.org/AboutPage">
                 <div class="about-text">
-                    <h2>Why Choose Me</h2>
-                    <p>With many years of experience in web development, I've helped dozens of businesses establish their online presence.</p>
-                    <p>I focus on creating fast, secure, and user-friendly websites that deliver real results for my clients.</p>
-                    <p>Every project receives my personal attention from start to finish.</p>
+                    <h2>Why Choose MRA Coders</h2>
+                    <p itemprop="description">We combine technical expertise with creative design to build websites that deliver measurable business results.</p>
+                    <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+                        <meta itemprop="name" content="Dhanbad, Jharkhand">
+                    </div>
                     <a href="#contact" class="btn">Let's Talk About Your Project</a>
                 </div>
             </div>
@@ -104,36 +136,53 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="cta" id="contact">
+    <section class="cta" id="contact" itemscope itemtype="http://schema.org/ContactPage">
         <div class="container">
             <h2>Ready to Start Your Project?</h2>
-            <p>Contact me today for a free consultation and quote.</p>
-            <a href="mailto:rehan63628@gmail.com" class="btn">Email Me Now</a>
+            <p>Contact us today for a free consultation</p>
+            <div itemscope itemtype="http://schema.org/ContactPoint">
+                <a href="mailto:rehan63628@gmail.com" class="btn" itemprop="email">Email Now</a>
+                <meta itemprop="contactType" content="customer service">
+                <meta itemprop="areaServed" content="IN">
+                <meta itemprop="availableLanguage" content="English,Hindi">
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer itemscope itemtype="http://schema.org/LocalBusiness">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>About</h3>
-                    <p>Professional web developer helping businesses establish their online presence.</p>
+                    <h3>About Us</h3>
+                    <p itemprop="description">Professional web development company in Dhanbad</p>
+                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                        <span itemprop="addressLocality">Dhanbad</span>, 
+                        <span itemprop="addressRegion">Jharkhand</span>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h3>Contact</h3>
-                   
-                    <a href=mailto:rehan63628@gmail.com">rehan63628@gmail.com"</a>
+                    <p><a href="mailto:rehan63628@gmail.com" itemprop="email">rehan63628@gmail.com</a></p>
+                    <meta itemprop="telephone" content="+91-XXXXX-XXXXX">
                 </div>
                 <div class="footer-section">
-                    <h3>Follow</h3>
-                    <a href="https://www.linkedin.com/in/rehan-ali-7280a4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
-                    <a href="https://x.com/Rehan63628?t=pDNkzEYQ7HOLpcIgrtISJw&s=09">Twitter</a>
-                    <a href="https://www.instagram.com/rehan_ali_akbar?igsh=YTl6MjFucDFkOWhv">Instagram</a>
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/rehan-ali-7280a4353" target="_blank" rel="nofollow">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://x.com/Rehan63628" target="_blank" rel="nofollow">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </a>
+                        <a href="https://www.instagram.com/rehan_ali_akbar" target="_blank" rel="nofollow">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 MRA CODER. All rights reserved.</p>
+                <p>&copy; <span itemprop="foundingDate">2023</span> MRA CODERS. All rights reserved.</p>
             </div>
         </div>
     </footer>
