@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://rehanaliakbar.github.io/Mra-coders/sitemap.xml
+Sitemap: https://RehanAliakbar.github.io/Mra-coders/sitemap.xml
