@@ -9,7 +9,7 @@ MRA Digital Studio is a premium web design and development agency. We specialize
 - Service Area: Worldwide
 - Email: mracoders@gmail.com
 - Phone: +91 8709920086
-- Website: https://mradigital.studio
+- Website: https://mradigitalstudio.netlify.app/
 
 ## Services
 1. **Web Design:** UI/UX, Prototyping, Wireframing.
