@@ -53,7 +53,7 @@ const Preloader = ({ onComplete }) => {
           ref={textRef} 
           className="font-chrome font-bold text-[32px] md:text-[64px] text-[var(--theme-manilla)] tracking-widest uppercase"
         >
-          MRA CODER
+          MRA STUDIO
         </h1>
       </div>
     </div>

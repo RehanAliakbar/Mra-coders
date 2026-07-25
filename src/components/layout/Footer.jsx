@@ -63,7 +63,7 @@ const Footer = () => {
       </div>
       
       <div className="max-w-[var(--page-max-width)] mx-auto mt-[80px] pt-[24px] border-t border-[var(--color-slate-medium)] flex flex-col md:flex-row justify-between items-center gap-4 font-chrome text-[12px] text-[var(--color-cloud-medium)]">
-        <p>&copy; {new Date().getFullYear()} MRA Coder. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} MRA Digital Studio. All rights reserved.</p>
         <div className="flex gap-[16px]">
           {socialLinks.map((social) => {
             const IconComponent = Icons[social.id];
