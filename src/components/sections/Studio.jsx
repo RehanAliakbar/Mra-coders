@@ -68,10 +68,10 @@ const Studio = () => {
           <div className="absolute inset-0 bg-black bg-opacity-20 z-10 pointer-events-none mix-blend-multiply dark:mix-blend-screen"></div>
           <video 
             src="https://videos.pexels.com/video-files/853889/853889-hd_1920_1080_25fps.mp4" 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
+            autoPlay={true} 
+            loop={true} 
+            muted={true} 
+            playsInline={true}
             className="w-full h-full object-cover filter contrast-[1.2] grayscale-[0.3]"
           />
         </div>

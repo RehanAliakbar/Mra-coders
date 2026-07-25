@@ -57,7 +57,7 @@ const Work = ({ limit }) => {
                     {project.description}
                   </p>
                   
-                  <div className="pointer-events-auto flex items-center gap-4">
+                  <div className="pointer-events-auto flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                     <Magnetic>
                       <div className="inline-block">
                         <Link to={project.link}>

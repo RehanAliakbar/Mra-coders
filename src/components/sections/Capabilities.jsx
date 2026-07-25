@@ -67,9 +67,7 @@ const Capabilities = ({ limit }) => {
                   className={`absolute inset-0 w-full h-full object-cover ${service.imageOpacity} group-hover:scale-105 transition-transform duration-700`} 
                 />
                 
-                {service.gradient && (
-                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--theme-slate-dark)] via-transparent to-transparent opacity-90 z-0"></div>
-                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-[var(--theme-slate-dark)] via-[rgba(26,27,24,0.4)] to-transparent opacity-95 z-0 pointer-events-none"></div>
                 
                 <div className="relative z-10 p-[32px] transform group-hover:-translate-y-2 transition-transform duration-500">
                   <h4 className="font-chrome font-bold text-[28px] md:text-[32px] mb-[16px] text-white">

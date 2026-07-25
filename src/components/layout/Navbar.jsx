@@ -77,13 +77,13 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 bg-[var(--theme-ivory-medium)] z-[90] flex flex-col items-center justify-center gap-[32px] pt-[80px]">
-          <Link to="/studio" className="font-chrome text-[24px] text-[var(--theme-slate-dark)]">Studio</Link>
-          <Link to="/capabilities" className="font-chrome text-[24px] text-[var(--theme-slate-dark)]">Capabilities</Link>
-          <Link to="/work" className="font-chrome text-[24px] text-[var(--theme-slate-dark)]">Work</Link>
-          <Link to="/contact" className="font-chrome text-[24px] text-[var(--theme-slate-dark)]">Contact</Link>
+        <div className="fixed inset-0 bg-[var(--theme-ivory-medium)] z-[90] flex flex-col items-center justify-center gap-[24px] pt-[60px]">
+          <Link to="/studio" className="font-chrome text-[20px] text-[var(--theme-slate-dark)]">Studio</Link>
+          <Link to="/capabilities" className="font-chrome text-[20px] text-[var(--theme-slate-dark)]">Capabilities</Link>
+          <Link to="/work" className="font-chrome text-[20px] text-[var(--theme-slate-dark)]">Work</Link>
+          <Link to="/contact" className="font-chrome text-[20px] text-[var(--theme-slate-dark)]">Contact</Link>
           <Link to="/contact">
-            <Button variant="clay-filled" className="mt-8">Let's talk</Button>
+            <Button variant="clay-filled" className="mt-4 text-[14px]">Let's talk</Button>
           </Link>
         </div>
       )}
