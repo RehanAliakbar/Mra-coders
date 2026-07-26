@@ -7,9 +7,9 @@ MRA Digital Studio is a premium web design and development agency. We specialize
 - Founder: Md Rehan Ali Akbar
 - Base Location: Dhanbad, Jharkhand, India
 - Service Area: Worldwide
-- Email: mracoders@gmail.com
+- Email: [mracoders@gmail.com](mailto:mracoders@gmail.com)
 - Phone: +91 8709920086
-- Website: https://mradigitalstudio.netlify.app/
+- Website: [MRA Digital Studio](https://mradigitalstudio.netlify.app/)
 
 ## Services
 1. **Web Design:** UI/UX, Prototyping, Wireframing.
@@ -17,10 +17,10 @@ MRA Digital Studio is a premium web design and development agency. We specialize
 3. **SEO:** Technical SEO, On-Page SEO, Local SEO, Generative Engine Optimization (GEO).
 
 ## Our Work
-We have completed projects like **MRA Esport** (Premium Gaming Platform UI). View our full portfolio on our website.
+We have completed projects like **MRA Esport** (Premium Gaming Platform UI). View our full portfolio on our [Website](https://mradigitalstudio.netlify.app/).
 
 ## Contact
-You can reach us at mracoders@gmail.com or call/WhatsApp at +91 8709920086. We typically respond within 24 hours.
+You can reach us via our [Contact Page](https://mradigitalstudio.netlify.app/contact), email us at [mracoders@gmail.com](mailto:mracoders@gmail.com), or call/WhatsApp at +91 8709920086. We typically respond within 24 hours.
 
 ## Technical Details
 This website is built using React, Vite, Tailwind CSS, GSAP for smooth animations, and Lenis for smooth scrolling. It is fully optimized for Core Web Vitals, Accessibility (WCAG), and modern SEO standards (JSON-LD schemas, Open Graph).
