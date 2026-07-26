@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
         
         <div>
-          <h4 className="font-chrome font-semibold text-[12px] mb-[16px]">Services</h4>
+          <p className="font-chrome font-semibold text-[12px] mb-[16px]">Services</p>
           <ul className="flex flex-col gap-[8px] font-chrome text-[12px] text-[var(--color-cloud-medium)]">
             {footerServices.map((item, index) => (
               <li key={index}><Link to={item.link} className="hover:text-[var(--color-clay)] transition-colors">{item.label}</Link></li>
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4 className="font-chrome font-semibold text-[12px] mb-[16px]">Company</h4>
+          <p className="font-chrome font-semibold text-[12px] mb-[16px]">Company</p>
           <ul className="flex flex-col gap-[8px] font-chrome text-[12px] text-[var(--color-cloud-medium)]">
             {footerCompany.map((item, index) => (
               <li key={index}><Link to={item.link} className="hover:text-[var(--color-clay)] transition-colors">{item.label}</Link></li>

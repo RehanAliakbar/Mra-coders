@@ -35,7 +35,7 @@ const Work = ({ limit }) => {
   return (
     <section id="work" ref={sectionRef} className="w-full max-w-[var(--page-max-width)] mx-auto px-[24px] md:px-[48px] py-[80px] md:py-[120px]">
       <div className="mb-[64px]">
-        <h2 className="work-reveal font-chrome font-bold text-[12px] uppercase tracking-wider text-[var(--theme-cloud-dark)] mb-[16px]">
+        <h2 className="work-reveal font-chrome font-bold text-[12px] uppercase tracking-wider text-[var(--theme-slate-dark)] opacity-80 mb-[16px]">
           Our Recent Work
         </h2>
         <h3 className="work-reveal font-editorial text-[32px] md:text-[40px] leading-[1.2] text-[var(--theme-slate-dark)] max-w-[600px]">

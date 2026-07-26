@@ -40,7 +40,7 @@ const Studio = () => {
         
         <div className="flex flex-col gap-[24px] text-left">
           <div className="overflow-hidden">
-            <h2 className="reveal-text-studio font-chrome font-bold text-[12px] uppercase tracking-wider text-[var(--theme-cloud-dark)] mb-[16px]">
+            <h2 className="reveal-text-studio font-chrome font-bold text-[12px] uppercase tracking-wider text-[var(--theme-slate-dark)] opacity-80 mb-[16px]">
               Studio
             </h2>
           </div>
@@ -72,8 +72,11 @@ const Studio = () => {
             loop={true} 
             muted={true} 
             playsInline={true}
+            title="Studio Background Video"
             className="w-full h-full object-cover filter contrast-[1.2] grayscale-[0.3]"
-          />
+          >
+            <track kind="captions" srcLang="en" label="English" default />
+          </video>
         </div>
 
       </div>

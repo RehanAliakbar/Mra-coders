@@ -64,15 +64,16 @@ const Capabilities = ({ limit }) => {
                 <img 
                   src={service.image} 
                   alt={`${service.title} Showcase`} 
+                  loading="lazy"
                   className={`absolute inset-0 w-full h-full object-cover ${service.imageOpacity} group-hover:scale-105 transition-transform duration-700`} 
                 />
                 
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--theme-slate-dark)] via-[rgba(26,27,24,0.4)] to-transparent opacity-95 z-0 pointer-events-none"></div>
                 
                 <div className="relative z-10 p-[32px] transform group-hover:-translate-y-2 transition-transform duration-500">
-                  <h4 className="font-chrome font-bold text-[28px] md:text-[32px] mb-[16px] text-white">
+                  <h3 className="font-chrome font-bold text-[28px] md:text-[32px] mb-[16px] text-white">
                     {service.title}
-                  </h4>
+                  </h3>
                   <ul className="flex flex-col gap-[8px] font-editorial text-[18px] text-[var(--theme-ivory-light)] opacity-90 mb-[24px]">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center gap-[8px]">
