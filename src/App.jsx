@@ -32,7 +32,7 @@ function App() {
           <div className="min-h-screen bg-[var(--theme-ivory-medium)] text-[var(--theme-slate-dark)] font-editorial selection:bg-[var(--theme-manilla)] transition-colors duration-500">
             <Navbar />
             <main>
-              <Suspense fallback={null}>
+              <Suspense fallback={<div className="h-screen w-full"></div>}>
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/studio" element={<StudioPage />} />

@@ -4,12 +4,12 @@
 
 ## About Us
 MRA Digital Studio is a premium web design and development agency. We specialize in crafting stunning, high-performance web experiences, technical SEO, and conversion-optimized designs.
+- [Official Website](https://mradigitalstudio.netlify.app/)
+- [Contact Email](mailto:mracoders@gmail.com)
 - Founder: Md Rehan Ali Akbar
 - Base Location: Dhanbad, Jharkhand, India
 - Service Area: Worldwide
-- Email: [mracoders@gmail.com](mailto:mracoders@gmail.com)
 - Phone: +91 8709920086
-- Website: [MRA Digital Studio](https://mradigitalstudio.netlify.app/)
 
 ## Services
 1. **Web Design:** UI/UX, Prototyping, Wireframing.
@@ -17,10 +17,13 @@ MRA Digital Studio is a premium web design and development agency. We specialize
 3. **SEO:** Technical SEO, On-Page SEO, Local SEO, Generative Engine Optimization (GEO).
 
 ## Our Work
-We have completed projects like **MRA Esport** (Premium Gaming Platform UI). View our full portfolio on our [Website](https://mradigitalstudio.netlify.app/).
+We have completed projects like **MRA Esport** (Premium Gaming Platform UI). 
+- [View Full Portfolio](https://mradigitalstudio.netlify.app/work)
 
 ## Contact
-You can reach us via our [Contact Page](https://mradigitalstudio.netlify.app/contact), email us at [mracoders@gmail.com](mailto:mracoders@gmail.com), or call/WhatsApp at +91 8709920086. We typically respond within 24 hours.
+We typically respond within 24 hours.
+- [Contact Page](https://mradigitalstudio.netlify.app/contact)
+- [Email Us](mailto:mracoders@gmail.com)
 
 ## Technical Details
 This website is built using React, Vite, Tailwind CSS, GSAP for smooth animations, and Lenis for smooth scrolling. It is fully optimized for Core Web Vitals, Accessibility (WCAG), and modern SEO standards (JSON-LD schemas, Open Graph).
