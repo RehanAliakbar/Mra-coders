@@ -20,21 +20,21 @@ const Preloader = ({ onComplete }) => {
       tl.from(textRef.current, {
         y: 50,
         opacity: 0,
-        duration: 1,
+        duration: 0.5,
         ease: 'power3.out'
       })
       .to(textRef.current, {
         y: -50,
         opacity: 0,
-        duration: 0.8,
+        duration: 0.4,
         ease: 'power3.in',
-        delay: 0.5
+        delay: 0.2
       })
       .to(containerRef.current, {
         yPercent: -100,
-        duration: 0.8,
+        duration: 0.5,
         ease: 'power4.inOut'
-      }, "-=0.2");
+      }, "-=0.1");
 
     }, containerRef);
 
